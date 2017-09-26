@@ -1,5 +1,5 @@
 # Task 1
-Build a vagrantfile that create a virtualbox VM (centos 7.x) with the latest version of docker and docker-composecreate a docker image (using a dockerfile) with nginx latest open source version
+Build a vagrantfile that creates a virtualbox VM (centos 7.x) with the latest version of docker and docker-compose. docker-compose will create a docker image (using a dockerfile) with nginx latest open source version.
  
 run the nginx docker container as a systemctl process on the virtualbox, and expose the port 80 from virtual guest to local host OS on port 80.
 
