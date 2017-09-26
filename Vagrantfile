@@ -19,11 +19,6 @@ curl -sSL https://get.docker.com/ | sudo sh
 # add 'vagrant' user to "docker" group
 sudo usermod -aG docker vagrant
 
-# configure for docker
-# override!
-######cp -f /tmp/docker.service  /usr/lib/systemd/system/docker.service
-
-
 # enabled when booting
 sudo systemctl enable docker
 sudo systemctl start  docker
@@ -41,7 +36,7 @@ EOC
   docker network create site3_default
     
   EOC
-  # docker-compose
+  # docker-compose to create reverseproxy and 3 Nginx web container
    
    config.vm.provision :docker
    config.vm.provision :docker_compose, yml: ["/vagrant/Nginx/reverse-proxy/docker-compose-base.yml"], project_name: "myproject", run: "always"
