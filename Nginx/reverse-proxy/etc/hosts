@@ -1,0 +1,5 @@
+127.0.0.1       localhost
+::1     localhost ip6-localhost ip6-loopback
+172.18.0.2    myfirstpage.com   
+172.19.0.2    mysecondpage.com  
+172.20.0.2    mythirdpage.com 
