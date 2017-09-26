@@ -17,6 +17,7 @@ Download and install the Vagrant_1.9.8_x86_64.msi (use this link: https://releas
 # Installing VirtualBox on Windows 
 
 Download and install the VirtualBox5.1.26 (use this link http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-Win.exe )
+
 Download and install VirtualBox5.1.26 Extension Pack (use this link http://download.virtualbox.org/virtualbox/5.1.26/Oracle_VM_VirtualBox_Extension_Pack-5.1.26-117224.vbox-extpack )
  
 # Clone the Repo
