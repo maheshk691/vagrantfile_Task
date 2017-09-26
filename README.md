@@ -6,11 +6,11 @@ run the nginx docker container as a systemctl process on the virtualbox, and exp
 # Creating the Windows Environment for this Task 
 
 # Create below entries on the hosts file where the browser (host system) is running
-myfirstpage.com  127.0.0.1
+myfirstpage.com     127.0.0.1
 
-mysecondpage.com  127.0.0.1
+mysecondpage.com    127.0.0.1
 
-mythirdpage.com 127.0.0.1
+mythirdpage.com     127.0.0.1
 
 # Installing Vagrant on Windows
 
